@@ -1,0 +1,34 @@
+
+.app__nav {
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  border-bottom: 2px solid #508FCA;
+  align-items: flex-end;
+}
+
+.app__nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-right: auto;
+  padding: 0;
+}
+
+.app__nav-item {
+  margin: 5px;
+  padding: 10px;
+}
+
+.app__nav-item a {
+  cursor: pointer;
+}
+
+.app__nav-item a:hover {
+  color: #999;
+}
+
+.selected {
+  border-bottom: 2px solid #FFAA3F;
+}

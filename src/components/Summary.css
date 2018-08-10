@@ -1,0 +1,38 @@
+.summary {
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+  color: #777;
+}
+
+.summary a {
+  display: flex;
+  align-items: flex-end;
+}
+
+.summary a:hover {
+  cursor: pointer;
+}
+
+.summary p {
+  margin: 0;
+  line-height: 100%; 
+}
+
+.summary p:hover {
+  text-decoration: underline;
+  color: #000;  
+}
+
+.summary p:not(:last-child) {
+  margin-right: 5px;
+}
+
+.summary i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.summary i:hover {
+  color: #000;
+}
